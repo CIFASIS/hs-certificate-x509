@@ -14,6 +14,7 @@
 module Data.X509.CRL
     ( CRL(..)
     , RevokedCertificate(..)
+    , parseCRL
     ) where
 
 import Control.Applicative
